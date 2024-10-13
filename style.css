@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+}
+
+
+
+/*Navbar Section start*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: transparent;
+    padding: 40px 100px 100px 100px;
+
+}
+
+.navSection{
+     background-color: #F5F7FA;
+}
+
+
+.navLogo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.navLogo object{
+    width: 40px;
+    height: 50px;
+}
+
+.navLinks ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    font-family: Inter;
+    font-size: 16px;
+
+}
+
+.navLinks ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.loginBtn{
+    background-color: transparent;
+    border: none;
+    color: green;
+    font-size: 15px;
+}
+
+.signUpBtn{
+    background-color: rgb(8, 167, 8);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(8, 167, 8);
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.navBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/*Navbar section end*/
+
+
+/*Head Section start*/
+
+.headSection{
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.headDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px 70px 100px 50px;
+
+}
+
+.headSection img{
+   width: 391px;
+   height: 407px;
+}
+
+.headSection h1{
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.headSection h1 span{
+    color: green;
+}
+
+.headText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headText p{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #717171;
+    padding-bottom: 10px;
+}
+
+.headText button{
+    width: 128px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4CAF4F;
+    color: white;
+    border: 1px solid #4CAF4F;
+    border-radius: 4px;
+}
+
+.headSection object{
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+/*Head Section end*/
+
+
+/*Clients Section start*/
+
+.clientSection{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 100px 0px;
+    align-items: center;
+}
+
+.textClientSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textClientSection h2{
+    font-weight: 600;
+    font-family: Inter;
+    color: #4D4D4D;
+    font-size: 36px;
+    
+}
+
+.textClientSection p{
+    font-weight: 400;
+    font-family: Inter;
+    color: #717171;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+/*Clients Section end*/
+
+
+/*Statistics Section start*/
+
+.statisticsSection{
+    display: flex;
+    background-color:#F5F7FA;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0px 70px 0px;
+    margin: auto;
+
+}
+
+.statisticsText h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.statisticsText h2 span{
+    color: green;
+}
+
+.statisticsText p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#18191F;
+    padding-top: 15px;
+}
+
+.statisticsNumbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/*Statistics Section end*/
+
+
+/*Card Section start*/
+
+.cardSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px 150px 0px;
+    gap: 30px;
+}
+
+.cardSectionText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardSectionText h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;
+}
+
+.cardSectionText pre{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color:#717171;
+    padding-top: 13px;
+    line-height: 0.7;
+}
+
+.cardSectionCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.card img{
+    width: 368px;
+    height: 286px;
+    border-radius: 8px;
+}
+
+.cardText{
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    background-color: #F5F7FA;
+    box-shadow: 0px 8px 16px 0px #ABBED166;  
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    top: 65%;
+    bottom: 35%;
+
+}
+
+.cardText pre{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color:#717171;
+}
+
+.cardText button{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color:#4CAF4F;
+    padding-top: 40px;
+
+}
+
+/*Card Section end*/
+
+
+/*Learn more section start*/
+
+.learnMoreSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 130px 80px 100px;
+}
+
+.learnMoreSection object{
+    width: 441px;
+    height: 433px;
+}
+
+.learnMoreText h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    color:#4D4D4D;
+}
+
+.learnMoreText p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #717171;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.learnMoreText button{
+    color: white;
+    background-color:#4CAF4F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #4CAF4F;
+    width: 151px;
+    height: 52px;
+
+}
+
+/*Learn more section end*/
+
+
+/*Footer Section start*/
+
+.footerSection{
+    background-color:#263238;
+    color: white;
+    font-family: Inter;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 100px;
+    gap: 100px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: around;
+    gap: 6px;
+}
+
+.footerPart1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items:flex-start;
+    padding-left: 100px;
+}
+
+.footerPart1 h2{
+    font-size: 32px;
+}
+
+.footerPart1 p{
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.footerPart1 img{
+    width: 200px;
+}
+
+.footerPart2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding-right: 35px;
+}
+
+.footerPart2 ul{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.footerPart2 a{
+    color:#F5F7FA;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.listHeader{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.footerPart2 h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mailBox{
+     position: relative;
+     background-color: #515b60; 
+     padding: 10px;
+     border: 1px solid #515b60;
+     border-radius: 8px;
+     width: 255px;
+     height: 40px;
+}
+
+input::placeholder{
+    color: rgb(219, 217, 217);
+    font-weight: 300;
+}
+
+.footerPart2 object{
+    position: absolute;
+    transform: translate(1250%,65%)
+}
+
+.mailBoxPart{
+    display: flex;
+}
